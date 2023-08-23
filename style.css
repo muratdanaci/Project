@@ -175,7 +175,6 @@ header {
 #welcome-button__fb {
 	background-color: var(--green);
 	color: var(--white);
-	width: 48.5%;
 	letter-spacing: 1px;
 	box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
 	transition: .5s;
