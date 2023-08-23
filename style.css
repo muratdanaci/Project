@@ -1,0 +1,209 @@
+* {
+	scroll-behavior: smooth;
+}
+
+:root {
+	--white: #fff;
+	--green: #1eb2a6;
+}
+
+body {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.8;
+	font-weight: 400;
+	height: 1000px;
+}
+
+header {
+	background-image: url(https://preview.colorlib.com/theme/academia/images/bg_1.jpg.webp);
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+#header-bar {
+	position: relative;
+	top: 14px;
+}
+
+.top-side {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding: 1.2em 0;
+}
+
+.icons {
+	font-size: 38px;
+	margin-right: 6px;
+}
+
+.texts {
+	font-size: 16px;
+	color: var(--white);
+	display: block;
+}
+
+.align-center {
+	align-items: center;
+}
+
+#logo {
+	position: relative;
+	top: -13px;
+	font-size: 30px;
+	font-weight: 800;
+	line-height: 1.1;
+}
+
+#logo a {
+	color: #fff;
+	transition: .5s;
+}
+
+#logo a:hover {
+	color: #1eb2a6;
+}
+
+#logo span {
+	font-size: 12px;
+	display: block;
+	font-weight: 500;
+}
+
+#days {
+	position: relative;
+  left: 14rem;
+}
+
+#call-us {
+	position: relative;
+	left: 11rem;
+}
+
+#social-media {
+	position: relative;
+	right: -70px;
+  top: -10px;
+}
+
+.top-side p a {
+	background: rgba(255, 255, 255, 0.2);
+	margin-right: 4px;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	padding: 10px;
+	color: var(--green);
+	transition: .4s;
+}
+
+#social-media span {
+	font-size: 16px;
+}
+
+#social-media a:hover {
+	background-color: var(--green);
+	color: var(--white);
+}
+
+.sec {
+	line-height: 1.3;
+	position: relative;
+	top: -13px;
+}
+
+#navi {
+	font-size: 15px;
+	font-weight: 500;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	top: 100px;
+	width: 100%;
+	left: -65px;
+	background: rgba(255, 255, 255, 0.1);
+
+}
+
+#navi a {
+	color: var(--white);
+	text-decoration: none;
+}
+
+#navi #home {
+	color: var(--green) !important;
+}
+
+#cert {
+	font-size: 13px;
+	background-color: var(--green);
+	padding: 1.5rem;
+	border: 1px solid #1eb2a6;
+	position: relative;
+  right: -144px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+#welcome-side {
+	color: var(--white);
+	top: 26%;
+	left: 6%;
+	width: 65%;
+}
+
+#welcome-side h1 {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+#welcome {
+	color: rgba(255, 255, 255, 0.7);
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+}
+
+#welcome-p {
+	color: rgba(255, 255, 255, 0.7);
+	width: 450px;
+}
+
+#welcome-button__fb {
+	background-color: var(--green);
+	color: var(--white);
+	width: 48.5%;
+	letter-spacing: 1px;
+	box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+	transition: .5s;
+} 
+
+#welcome-button__sb {
+	background-color: var(--white);
+	color: var(--green);
+	width: 40%;
+	letter-spacing: 1px;
+	box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+	transition: .5s;
+}
+
+#welcome-button__fb:hover {
+	box-shadow: 0px var(--white);
+}
+
+#welcome-button__sb:hover {
+	box-shadow: 0px var(--white);
+}
+
+
+/* 
+	monday olan kismi saga dogru yaklastirarak basla
+
+	logoya hover ekle
+
+	sosyal medya ikonlarina animasyon ekle
+
+*/
